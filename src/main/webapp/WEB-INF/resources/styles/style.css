@@ -1,0 +1,88 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+.header{
+	width:100%;
+	height:40px;
+	
+}
+
+.first{
+	width:3.5%;  /* image size and space occupy kosam */
+	float:Left;
+	padding-left:10px;        /*  we have written this because image chaala lleft ki undi so konnchem right move cheyadam kosam */
+	padding-top:10px;          /* Dairy symbol baaga paiki undi so konchem down cheyadaniki use chesina */
+}
+
+.second{
+	width:88%;     /* paina padding 10px ichinam kabatti width 80 istunnam endukantey paina width 10 ichinam kabatti total 100  */
+	float:Left;
+	font-size:25px;
+	font-weight:bold;
+	text-align:Left;
+	padding-top:20px;           /* my dairy baaga paiki ellindi adi konchem down cheyadam kosam padding to rasinam */
+}
+
+.bodypart{                   /* total body part box size login kosam image kosam 100 ichinam kinnda divide cheskunnam */
+	width:100%;
+	text-align:center;        /* center raskuntey correct ga ostundi lekapothey left ki untai parent lo rakunamm kinda avsaram ledu */
+}
+
+.bodypart1{
+	width:55%;
+	float:Left;       /* float left anedi ennduku rasinam antey okadani pakka inkoti ravadaniki lekapothey image kinda login ostadi */
+	/* border:1px solid red; */  /* ey data entha space tiskuntundi ani just box ostundi data chuttu so telustundi  */
+	padding-top:10%;       /* ikkada padding lo px enduku rayaledu antey px 100 istey %just 10 istey saripotundi so px noneed */
+}
+.bodypart2{
+	width:42%;
+	float:Left;
+	/* border:1px solid red; */
+	padding-top:8%;
+}
+.formcontrol{          /* form control is for editing username pasword box size */
+	width:200px ;  
+	height:40px;
+}
+
+.label{
+	font-size:35px;
+}
+
+button{                           /* here we not written .button becuase we are directly giving style to button */
+	background-color:skyblue;
+	color:black;
+	width:200px ;  
+	height:40px;
+	font-weight:bold;    /* for bolding text in button */
+	
+}
+.userhome{
+	text-align:left;
+	font-size:30px;
+	font-weight:bold;
+	padding:12px;
+}
+/* .userhome span{
+	padding-right:400px;
+} */
+.heading{
+	font-size:30px;
+	color:orange;
+}
+.addbtn{
+	background-color:steelblue;
+	color:white;
+	float:right;    /* to keep add entry button on right side */
+}
+
+table{
+	width:99%;
+	margin:0 auto auto;  /* to move table to center we use this */
+}
+td{
+	padding:15px;  /* for increasing the box size of user not added entries data box */
+	text-align: left;
+}
